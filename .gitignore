@@ -6,14 +6,19 @@ _site
 .jekyll-cache
 .jekyll-metadata
 vendor
+
+# Jupyter Notebook
 _notebooks/.ipynb_checkpoints
+
+# Python environment
+env/
+
+# VS Code
+*.code-workspace
+
+# Misc.
+.DS_Store
+__pycache__
 # Local Netlify folder
 .netlify
 .tweet-cache
-
-.DS_Store
-__pycache__
-*/env
-
-# VS Code Stuff
-*.code-workspace
